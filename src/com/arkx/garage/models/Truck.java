@@ -2,8 +2,8 @@ package com.arkx.garage.models;
 
 import java.time.Year;
 
-import com.arkx.interfaces.Drivable;
-import com.arkx.interfaces.Serviceable;
+import com.arkx.garage.interfaces.Drivable;
+import com.arkx.garage.interfaces.Serviceable;
 
 public class Truck extends Vehicle implements Drivable, Serviceable {
 	

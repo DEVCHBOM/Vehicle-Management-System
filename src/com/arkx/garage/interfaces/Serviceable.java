@@ -1,4 +1,4 @@
-package com.arkx.interfaces;
+package com.arkx.garage.interfaces;
 
 public interface Serviceable {
 	

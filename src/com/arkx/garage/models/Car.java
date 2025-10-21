@@ -1,6 +1,6 @@
 package com.arkx.garage.models;
 
-import com.arkx.interfaces.Drivable;
+import com.arkx.garage.interfaces.Drivable;
 
 public class Car extends Vehicle implements Drivable {
 

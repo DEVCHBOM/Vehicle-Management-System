@@ -3,12 +3,12 @@ package com.arkx.garage.main;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.arkx.garage.interfaces.Drivable;
+import com.arkx.garage.interfaces.Serviceable;
 import com.arkx.garage.models.Car;
 import com.arkx.garage.models.Motorcycle;
 import com.arkx.garage.models.Truck;
 import com.arkx.garage.models.Vehicle;
-import com.arkx.interfaces.Drivable;
-import com.arkx.interfaces.Serviceable;
 
 public class Main {
 	
