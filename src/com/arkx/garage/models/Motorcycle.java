@@ -12,12 +12,12 @@ public class Motorcycle
 
 	@Override
 	public void start() {
-		System.out.println("Motorcycle is braking gently");
+		System.out.println("Motorcycle is starting");
 	}
 
 	@Override
 	public void accelerate() {
-		System.out.println("Motorcycle is braking gently");
+		System.out.println("Motorcycle is accelerate smoothly");
 		
 	}
 

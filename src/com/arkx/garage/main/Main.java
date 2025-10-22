@@ -22,6 +22,7 @@ public class Main {
         
         
         for (Vehicle vehicle : vehicles) {
+        	System.out.println(vehicle.getBrand());
 			System.out.println("_______________________________________");
 
 			vehicle.displayInfo();
@@ -33,10 +34,10 @@ public class Main {
 				
 			if (vehicle instanceof Serviceable ) {
                 if (((Serviceable) vehicle).needsService()) {
-                    System.out.println("This vehicle needs service.");
+                    System.out.println("This vehicle needs service");
                     ((Serviceable) vehicle).needsService();
                 } else {
-                    System.out.println("This vehicle is in good condition.");
+                    System.out.println("This vehicle is in good condition");
                 }
             }
 			System.out.println("_______________________________________");
